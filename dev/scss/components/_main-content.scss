@@ -1,0 +1,32 @@
+.main-content-sidebar {
+    background-color: $dark-blue;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 1;
+}
+.main-content-body {
+    background-color: $grey;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 2;
+}
+.main-content-ads {
+    background-color: $red;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 1;
+}
+.main-content-author {
+    background-color: $purple;
+    color: $white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-column: span 4;
+}
