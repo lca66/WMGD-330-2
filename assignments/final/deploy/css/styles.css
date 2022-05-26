@@ -313,7 +313,9 @@ template {
 
 .site-grid {
   margin: 0 auto;
-  max-width: 1200px; }
+  max-width: 1200px;
+  background: #FBF7F4;
+  font-weight: 400; }
 
 /* =============
     Typography
@@ -325,3 +327,77 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0; }
+
+.header {
+  background: #FBF7F4;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header a {
+  margin-left: 20px;
+  color: #421908;
+  text-decoration: none; }
+
+.header #logo {
+  padding: none; }
+
+/* =============
+    Navigation
+============= */
+.navigation {
+  text-align: left; }
+
+.hero img {
+  max-width: 1200px;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.hero h1 {
+  color: #421908;
+  font-size: 64px;
+  text-align: center;
+  padding-left: 135px;
+  padding-right: 135px;
+  padding-bottom: 60px;
+  font-weight: 600; }
+
+.main-content {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.main-content h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #421908; }
+
+.main-content h3 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #421908; }
+
+.main-content p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #421908; }
+
+#pink-box {
+  background: #F6E7E3;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px; }
+
+#pink-box img {
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+#carousel {
+  padding: 80px; }

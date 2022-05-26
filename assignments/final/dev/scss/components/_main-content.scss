@@ -1,0 +1,45 @@
+.main-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main-content h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: $RuddyBronzeLight40;
+}
+
+.main-content h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: $RuddyBronzeLight40;
+}
+
+.main-content p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: $RuddyBronzeLight40;
+}
+
+#pink-box {
+    background: $ChampagnePinkDark20;
+    display: flex; 
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px
+}
+
+#pink-box img {
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#carousel {
+    padding: 80px;
+}

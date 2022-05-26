@@ -1,0 +1,16 @@
+.header{
+    background: $SeashellDark40; 
+    padding: 16px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.header a{
+    margin-left: 20px;
+    color: $RuddyBronzeLight40;
+    text-decoration: none;
+}
+.header #logo {
+    padding: none;
+
+}
