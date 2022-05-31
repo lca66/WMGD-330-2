@@ -1,0 +1,67 @@
+#greenbox {
+    background: $TeaGreenLight20;
+    border-radius: 0px 0px 32px 32px; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer h1 {
+    font-weight: 600;
+    font-size: 56px;
+    color: $RuddyBronzeLight40;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 0px;
+} 
+
+.footer p {
+    font-weight: 500;
+    font-size: 32px;
+    color: $RuddyBronzeLight40;
+    padding-top: 0px;
+    padding-left: 85px;
+    margin-top: 10px;
+    margin-bottom: 20px
+} 
+
+.footer form {
+    text-align: center;
+    margin-bottom: 66px;
+    padding-bottom: 66px;
+}
+
+.footer button {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    background-color: $TeaGreenLight40;
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    height: 40px;
+    // display: inline-block;
+}
+
+.footer input {
+    border-radius: 0px 0px 10px 10px;
+    font-size: 24px;
+    padding-left: 250px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: $ChampagnePinkLight40;
+    border-style: solid;
+    vertical-align: top;
+    height: 40px;
+    // display: inline-block;
+
+}
+
+.footer img {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}

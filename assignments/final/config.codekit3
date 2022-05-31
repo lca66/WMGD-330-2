@@ -17,6 +17,14 @@
       "oAP" : "\/build\/.gitignore",
       "oF" : 0
     },
+    "\/deploy\/about.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/about.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -29,11 +37,37 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/images\/abouthero.png" : {
+      "ft" : 32768,
+      "iS" : 1562757,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/abouthero.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/images\/cafe.png" : {
       "ft" : 32768,
       "iS" : 62555,
       "oA" : 0,
       "oAP" : "\/deploy\/images\/cafe.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/cafeimage.png" : {
+      "ft" : 32768,
+      "iS" : 720331,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/cafeimage.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -55,6 +89,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/images\/community.png" : {
+      "ft" : 32768,
+      "iS" : 650728,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/community.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/images\/favicon.ico" : {
       "cB" : 0,
       "ft" : 8192,
@@ -68,6 +115,19 @@
       "iS" : 78185,
       "oA" : 0,
       "oAP" : "\/deploy\/images\/floral.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/footericons.png" : {
+      "ft" : 32768,
+      "iS" : 1583,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/footericons.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -115,6 +175,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/images\/kat.png" : {
+      "ft" : 32768,
+      "iS" : 202807,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/kat.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/images\/logo.png" : {
       "ft" : 32768,
       "iS" : 1341,
@@ -128,11 +201,50 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/images\/meg.png" : {
+      "ft" : 32768,
+      "iS" : 293414,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/meg.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/peicha.png" : {
+      "ft" : 32768,
+      "iS" : 533391,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/peicha.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/images\/plants.png" : {
       "ft" : 32768,
       "iS" : 81028,
       "oA" : 0,
       "oAP" : "\/deploy\/images\/plants.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/sarah.png" : {
+      "ft" : 32768,
+      "iS" : 230568,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/sarah.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -173,12 +285,28 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dev\/about.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/about.html",
+      "oF" : 0
+    },
+    "\/dev\/abouthero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/abouthero.html",
+      "oF" : 0
+    },
     "\/dev\/cafe.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/cafe.html",
+      "oAP" : "\/deploy\/cafe.html",
       "oF" : 0
     },
     "\/dev\/community.kit" : {
@@ -186,7 +314,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/community.html",
+      "oAP" : "\/deploy\/community.html",
       "oF" : 0
     },
     "\/dev\/footer.kit" : {
@@ -194,7 +322,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/footer.html",
+      "oAP" : "\/deploy\/footer.html",
       "oF" : 0
     },
     "\/dev\/header.kit" : {
@@ -202,7 +330,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/header.html",
+      "oAP" : "\/deploy\/header.html",
       "oF" : 0
     },
     "\/dev\/hero.kit" : {
@@ -210,7 +338,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/hero.html",
+      "oAP" : "\/deploy\/hero.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
@@ -231,14 +359,6 @@
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/dev\/main-content.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/main-content.html",
-      "oF" : 0
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
@@ -440,7 +560,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/services.html",
+      "oAP" : "\/deploy\/services.html",
       "oF" : 0
     }
   },
@@ -456,7 +576,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-forest",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 675223087.629318
+    "lastBuiltDate" : 675660647.18858898
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -1839,10 +1959,10 @@
     "languageDefaultsKIT" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*.html",
-      "autoOutputPathRelativePath" : "",
+      "autoOutputPathRelativePath" : "deploy",
       "autoOutputPathReplace1" : "kit",
       "autoOutputPathReplace2" : "html",
-      "autoOutputPathStyle" : 0,
+      "autoOutputPathStyle" : 1,
       "htmlMinifierStyle" : 0,
       "shouldRunCacheBuster" : 0
     },

@@ -8,6 +8,7 @@
     font-size: 36px;
     font-weight: 800;
     color: $RuddyBronzeLight40;
+    padding-bottom: 65px;
 }
 
 .main-content h3 {
@@ -17,8 +18,16 @@
     color: $RuddyBronzeLight40;
 }
 
-.main-content p {
+.main-content h4 {
     text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: $RuddyBronzeLight40;
+    padding: 66px;
+}
+
+.main-content p {
+    // text-align: center;
     font-size: 16px;
     font-weight: 400;
     color: $RuddyBronzeLight40;
@@ -30,7 +39,8 @@
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 100px
+    padding-bottom: 100px;
+    border-radius: 0px 0px 32px 32px; 
 }
 
 #pink-box img {
@@ -41,5 +51,46 @@
 }
 
 #carousel {
-    padding: 80px;
+    padding-left: 130px;
+    padding-top: 50px;
 }
+
+#cafeimage {
+    display: block;
+    margin: auto;
+}
+
+#cafetext {
+    display: flex; 
+    justify-content: space-between;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-bottom: 175px;
+}
+
+#cafetext p { 
+    font-size: 16px;
+    padding-top: 40px;
+    margin: 20px;
+    line-height: 24px;
+}
+
+#cafetext a {
+    text-decoration: none;
+}
+
+#services {
+    text-align: center;
+}
+
+#community {
+    display: block;
+    margin: auto;
+}
+
+#communitytext {
+    font-size: 24px;
+}
+
+
+
