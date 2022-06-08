@@ -313,9 +313,11 @@ template {
 
 .site-grid {
   margin: 0 auto;
-  max-width: 1200px;
   background: #FBF7F4;
   font-weight: 400; }
+
+body {
+  background-color: #FBF7F4; }
 
 /* =============
     Typography
@@ -335,13 +337,26 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   align-items: center; }
 
-.header a {
+.header .navigation {
+  flex-grow: 1;
+  flex-basis: 0; }
+
+.header .navigation a {
   margin-left: 20px;
   color: #421908;
   text-decoration: none; }
 
 .header #logo {
   padding: none; }
+
+.logo {
+  align-self: center; }
+
+.icons {
+  flex-grow: 1;
+  flex-basis: 0;
+  width: 100%;
+  text-align: right; }
 
 /* =============
     Navigation
@@ -350,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left; }
 
 .hero img {
-  max-width: 1200px;
+  width: 100%;
   padding-top: 60px;
   padding-bottom: 60px; }
 
@@ -392,20 +407,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #421908; }
 
-#pink-box {
-  background: #F6E7E3;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 100px;
-  border-radius: 0px 0px 32px 32px; }
-
-#pink-box img {
+.servicesbox img {
   display: block;
   margin: auto;
-  padding-top: 25px;
-  padding-bottom: 25px; }
+  width: 100%;
+  padding: 25px 10px; }
 
 #carousel {
   padding-left: 130px;
@@ -441,31 +447,61 @@ h1, h2, h3, h4, h5, h6 {
 #communitytext {
   font-size: 24px; }
 
+.servicesrow {
+  background: #F6E7E3;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  border-radius: 0px 0px 32px 32px; }
+
+.servicesbox {
+  width: 50%; }
+  @media (min-width: 768px) {
+    .servicesbox {
+      width: 25%; } }
 #greenbox {
   background: #D2ECC6;
   border-radius: 0px 0px 32px 32px;
-  margin-left: 100px;
-  margin-right: 100px; }
-
+  padding-left: 30px; }
+  @media (min-width: 992px) {
+    #greenbox {
+      margin-left: 100px;
+      margin-right: 100px;
+      padding-left: 100px; } }
+  @media (min-width: 768px) {
+    #greenbox {
+      margin-left: 100px;
+      margin-right: 100px;
+      padding-left: 100px; } }
 .footer h1 {
   font-weight: 600;
-  font-size: 56px;
+  font-size: 24px;
   color: #421908;
-  text-align: center;
+  text-align: left;
   padding-top: 60px;
   padding-bottom: 0px; }
-
+  @media (min-width: 768px) {
+    .footer h1 {
+      font-size: 32px; } }
+  @media (min-width: 992px) {
+    .footer h1 {
+      font-size: 56px; } }
 .footer p {
   font-weight: 500;
-  font-size: 32px;
+  text-align: left;
+  font-size: 16px;
   color: #421908;
   padding-top: 0px;
-  padding-left: 85px;
   margin-top: 10px;
   margin-bottom: 20px; }
-
+  @media (min-width: 992px) {
+    .footer p {
+      font-size: 24px; } }
 .footer form {
-  text-align: center;
+  text-align: left;
   margin-bottom: 66px;
   padding-bottom: 66px; }
 
@@ -475,26 +511,170 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   background-color: #7E8E77;
   border-radius: 0px 0px 10px 10px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   border: none;
   height: 40px; }
-
+  @media (min-width: 768px) {
+    .footer button {
+      width: 15%; } }
 .footer input {
   border-radius: 0px 0px 10px 10px;
   font-size: 24px;
-  padding-left: 250px;
-  padding-right: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-color: #969391;
   border-style: solid;
   vertical-align: top;
   height: 40px; }
-
+  @media (min-width: 768px) {
+    .footer input {
+      width: 70%; } }
 .footer img {
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 60px; }
+
+.abouthero {
+  width: 100%;
+  height: auto; }
+
+.aboutourmission {
+  background: #F3DFDA;
+  border-radius: 0px 0px 24px 24px;
+  text-align: center; }
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150.02%;
+  color: #421908;
+  padding-top: 40px; }
+
+.aboutourmission p {
+  color: #421908;
+  font-size: 24px;
+  padding: 20px 20px 40px 20px; }
+
+.aboutpeicha {
+  width: 100%;
+  margin: auto;
+  color: #421908;
+  padding-left: 16px;
+  padding-right: 16px; }
+  @media (min-width: 992px) {
+    .aboutpeicha {
+      width: 60%; } }
+  @media (min-width: 768px) {
+    .aboutpeicha {
+      width: 60%; } }
+.aboutpeicha h2 {
+  text-align: center;
+  padding: 40px 0px; }
+
+.aboutpeicha p {
+  padding-top: 50px;
+  text-align: justify; }
+
+.aboutpeicha .p2 {
+  padding-top: 10px;
+  padding-bottom: 40px; }
+
+.aboutpeicha img {
+  max-width: 100%; }
+
+.aboutourstory {
+  background-color: #E4F4DD;
+  color: #421908;
+  border-radius: 0px 0px 20px 20px;
+  text-align: justify; }
+
+.aboutourstory h2 {
+  text-align: center; }
+
+.aboutourstory p {
+  text-align: justify;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 30px; }
+  @media (min-width: 992px) {
+    .aboutourstory p {
+      padding-left: 250px;
+      padding-right: 250px; } }
+  @media (min-width: 768px) {
+    .aboutourstory p {
+      padding-left: 150px;
+      padding-right: 150px; } }
+.aboutourdesigners img {
+  width: 100%; }
+
+.aboutourdesigners {
+  color: #421908; }
+
+.aboutourdesigners p {
+  text-align: justify; }
+
+.aboutourdesigners h2 {
+  text-align: center; }
+
+.aboutourdesigners h3 {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px; }
+
+.designer-block {
+  margin-top: 30px;
+  width: 100%; }
+  @media (min-width: 768px) {
+    .designer-block {
+      width: 33%;
+      padding-left: 10px;
+      padding-right: 10px; } }
+.designer-row {
+  padding-left: 20px;
+  padding-right: 20px; }
+  @media (min-width: 768px) {
+    .designer-row {
+      display: flex; } }
+.aboutwhy {
+  background: #F3DFDA;
+  border-radius: 0px 0px 24px 24px;
+  text-align: center;
+  width: 100%; }
+
+.aboutwhy h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150.02%;
+  color: #421908;
+  padding-top: 40px; }
+
+.aboutwhy h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150.02%;
+  color: #421908;
+  padding-top: 40px; }
+
+.aboutwhy p {
+  color: #421908;
+  font-size: 18px;
+  text-align: justify;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 30px; }
+  @media (min-width: 992px) {
+    .aboutwhy p {
+      padding-left: 250px;
+      padding-right: 250px; } }
+  @media (min-width: 768px) {
+    .aboutwhy p {
+      padding-left: 150px;
+      padding-right: 150px; } }

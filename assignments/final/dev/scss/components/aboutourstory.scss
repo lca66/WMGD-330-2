@@ -1,0 +1,28 @@
+.aboutourstory {
+    background-color: $TeaGreenDark40;
+    color: $RuddyBronzeLight40;
+    border-radius: 0px 0px 20px 20px;
+    text-align: justify;
+
+}
+
+.aboutourstory h2 {
+    text-align: center;
+}
+
+.aboutourstory p {
+    text-align: justify;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 30px;
+
+    @include lg {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    @include md {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}

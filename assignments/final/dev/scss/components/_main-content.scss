@@ -33,21 +33,13 @@
     color: $RuddyBronzeLight40;
 }
 
-#pink-box {
-    background: $ChampagnePinkDark20;
-    display: flex; 
-    justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
-    border-radius: 0px 0px 32px 32px; 
-}
 
-#pink-box img {
+
+.servicesbox img {
     display: block;
     margin: auto;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    width: 100%;
+    padding: 25px 10px;
 }
 
 #carousel {
@@ -61,14 +53,14 @@
 }
 
 #cafetext {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     padding-left: 175px;
     padding-right: 175px;
     padding-bottom: 175px;
 }
 
-#cafetext p { 
+#cafetext p {
     font-size: 16px;
     padding-top: 40px;
     margin: 20px;
@@ -92,5 +84,21 @@
     font-size: 24px;
 }
 
+.servicesrow {
+    background: $ChampagnePinkDark20;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    border-radius: 0px 0px 32px 32px;
+}
 
+.servicesbox {
+    width: 50%;
 
+    @include md {
+        width: 25%;
+    }
+}

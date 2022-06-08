@@ -1,0 +1,44 @@
+.aboutourdesigners img {
+    width: 100%;
+}
+
+.aboutourdesigners {
+    color: $RuddyBronzeLight40;
+}
+
+.aboutourdesigners p {
+    text-align: justify;
+}
+
+.aboutourdesigners h2 {
+    text-align: center;
+}
+
+.aboutourdesigners h3 {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.designer-block {
+    margin-top: 30px;
+    width: 100%;
+
+    @include md {
+        width: 33%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+}
+
+.designer-row {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @include md {
+
+        display: flex;
+    }
+}

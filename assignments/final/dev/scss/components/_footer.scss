@@ -1,31 +1,60 @@
 #greenbox {
     background: $TeaGreenLight20;
-    border-radius: 0px 0px 32px 32px; 
-    margin-left: 100px;
-    margin-right: 100px;
+    border-radius: 0px 0px 32px 32px;
+    padding-left: 30px;
+
+    @include lg {
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-left: 100px;
+    }
+
+    @include md {
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-left: 100px;
+    }
+
+
+
 }
+
 
 .footer h1 {
     font-weight: 600;
-    font-size: 56px;
+    font-size: 24px;
     color: $RuddyBronzeLight40;
-    text-align: center;
+    text-align: left;
     padding-top: 60px;
     padding-bottom: 0px;
-} 
+
+    @include md {
+        font-size: 32px;
+    }
+
+    @include lg {
+        font-size: 56px;
+    }
+
+}
 
 .footer p {
     font-weight: 500;
-    font-size: 32px;
+    text-align: left;
+    font-size: 16px;
     color: $RuddyBronzeLight40;
     padding-top: 0px;
-    padding-left: 85px;
     margin-top: 10px;
-    margin-bottom: 20px
-} 
+    margin-bottom: 20px;
+
+    @include lg {
+        font-size: 24px;
+    }
+
+}
 
 .footer form {
-    text-align: center;
+    text-align: left;
     margin-bottom: 66px;
     padding-bottom: 66px;
 }
@@ -36,20 +65,24 @@
     font-size: 24px;
     background-color: $TeaGreenLight40;
     border-radius: 0px 0px 10px 10px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     border: none;
     height: 40px;
     // display: inline-block;
+
+    @include md {
+        width: 15%;
+    }
 }
 
 .footer input {
     border-radius: 0px 0px 10px 10px;
     font-size: 24px;
-    padding-left: 250px;
-    padding-right: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-color: $ChampagnePinkLight40;
@@ -57,6 +90,10 @@
     vertical-align: top;
     height: 40px;
     // display: inline-block;
+
+    @include md {
+        width: 70%;
+    }
 
 }
 

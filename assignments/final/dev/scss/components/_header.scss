@@ -1,16 +1,34 @@
-.header{
-    background: $SeashellDark40; 
+.header {
+    background: $SeashellDark40;
     padding: 16px;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header a{
+
+.header .navigation {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.header .navigation a {
     margin-left: 20px;
     color: $RuddyBronzeLight40;
     text-decoration: none;
 }
+
 .header #logo {
     padding: none;
 
+}
+
+.logo {
+    align-self: center;
+}
+
+.icons {
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 100%;
+    text-align: right;
 }

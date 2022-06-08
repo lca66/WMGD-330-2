@@ -25,6 +25,38 @@
       "oAP" : "\/deploy\/about.html",
       "oF" : 0
     },
+    "\/deploy\/aboutourmission.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/aboutourmission.html",
+      "oF" : 0
+    },
+    "\/deploy\/aboutourstory.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/aboutourstory.html",
+      "oF" : 0
+    },
+    "\/deploy\/aboutpeicha.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/aboutpeicha.html",
+      "oF" : 0
+    },
+    "\/deploy\/aboutwhy.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/aboutwhy.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -301,6 +333,46 @@
       "oAP" : "\/deploy\/abouthero.html",
       "oF" : 0
     },
+    "\/dev\/aboutourdesigners.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/aboutourdesigners.html",
+      "oF" : 0
+    },
+    "\/dev\/aboutourmission.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/aboutourmission.html",
+      "oF" : 0
+    },
+    "\/dev\/aboutourstory.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/aboutourstory.html",
+      "oF" : 0
+    },
+    "\/dev\/aboutpeicha.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/aboutpeicha.html",
+      "oF" : 0
+    },
+    "\/dev\/aboutwhy.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/aboutwhy.html",
+      "oF" : 0
+    },
     "\/dev\/cafe.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -510,6 +582,96 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/components\/abouthero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/abouthero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/aboutourdesigners.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/aboutourdesigners.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/aboutourmission.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/aboutourmission.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/aboutourstory.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/aboutourstory.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/aboutpeicha.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/aboutpeicha.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/aboutwhy.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/aboutwhy.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -576,7 +738,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-forest",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 675660647.18858898
+    "lastBuiltDate" : 676407385.88855898
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
